@@ -1,28 +1,3 @@
-"""
-attacker_ai.py - AI Hacker Behavior Engine
-===========================================
-Simulates an intelligent attacker performing a multi-stage
-cyberattack campaign against the network.
-
-Attack Phases (mimics real-world kill-chain):
-  1. RECONNAISSANCE  - Discover live hosts
-  2. SCANNING        - Enumerate open ports
-  3. EXPLOITATION    - Attempt to exploit open ports
-  4. PERSISTENCE     - Consolidate access, pivot to server
-
-Difficulty levels affect:
-  - Scan speed
-  - Attack frequency
-  - Number of simultaneous targets
-  - Probability of successful exploitation
-
-Cybersecurity Concepts Demonstrated:
-- Cyber kill chain phases
-- Port scanning simulation
-- Probability-based exploit modeling
-- Attack escalation over time
-"""
-
 import random
 import time
 from enum import Enum
