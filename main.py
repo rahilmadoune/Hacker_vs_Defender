@@ -1,23 +1,3 @@
-"""
-main.py - Game Orchestration & Main Loop
-=========================================
-Entry point for the Hacker vs Defender simulation.
-
-Coordinates:
-  - Game state machine (MENU → PLAYING → GAME_OVER)
-  - Event processing (keyboard, mouse)
-  - Network update cycle
-  - Attacker AI ticks
-  - Defender action dispatch
-  - Win/Loss detection
-
-Run with:
-    python main.py
-
-Dependencies:
-    pip install pygame
-"""
-
 import sys
 import time
 import pygame
