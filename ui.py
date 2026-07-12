@@ -1,21 +1,3 @@
-"""
-ui.py - Pygame Rendering & UI Engine
-=====================================
-Handles all visual rendering for the Hacker vs Defender simulation.
-
-Renders:
-  - Network topology diagram with animated nodes
-  - Server health bar
-  - Firewall status indicator
-  - Packet traffic animations
-  - Defender action panel with cooldown bars
-  - IDS alert log panel
-  - Score, threat level, and wave counter HUD
-  - Menu screens (main, difficulty, game over)
-
-Design follows a dark cyberpunk aesthetic suitable for a security sim.
-"""
-
 import pygame
 import math
 import time
