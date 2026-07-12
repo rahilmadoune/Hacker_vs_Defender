@@ -16,9 +16,6 @@
 ![Active Gameplay](assets/screenshot_gameplay.png)
 *Figure 2: Active simulation with packet flow, node status alerts, and firewall activated.*
 
-![Game Over Screen](assets/screenshot_game_over.png)
-*Figure 3: Victory/Loss screen showing final score, grade, and updated high scores.*
-
 ---
 
 ## 📋 Table of Contents
@@ -125,9 +122,6 @@ hacker-vs-defender/
 │   ├── test_attacker.py
 │   ├── test_defender.py
 │   └── test_high_scores.py
-├── .github/
-│   └── workflows/
-│       └── ci.yml              # GitHub Actions CI (pytest across Python 3.9–3.12)
 ├── pytest.ini                  # pytest configuration
 ├── requirements.txt            # Runtime dependencies
 ├── requirements-dev.txt        # Development/test dependencies
