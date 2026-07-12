@@ -1,26 +1,3 @@
-"""
-defender_actions.py - Defender Action System
-=============================================
-Provides all defensive actions available to the player.
-Each action has a cooldown, cost, and specific effect on
-the network state.
-
-Actions Available:
-  - Scan Network      : Reveal attacker activity
-  - Close Port        : Remove an exploitable entry point
-  - Activate Firewall : Toggle firewall protection
-  - Patch Node        : Restore a vulnerable/attacked node
-  - Deploy Honeypot   : Slow attacker with a decoy
-  - Emergency Lockdown: Temporarily block all external traffic
-
-Cybersecurity Concepts Demonstrated:
-- Incident response procedures
-- Port hardening
-- Firewall management
-- Vulnerability patching
-- Deception technology (honeypot)
-"""
-
 import time
 import random
 from typing import List, Optional, Dict, Tuple
