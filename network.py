@@ -1,17 +1,3 @@
-"""
-network.py - Core Network Simulation Module
-============================================
-Defines the network topology, devices, ports, firewall,
-and the server that the player must protect.
-
-Cybersecurity Concepts Demonstrated:
-- Network nodes and IP addressing
-- Port states (open/closed/filtered)
-- Firewall rules and packet filtering
-- Device vulnerability states
-- Intrusion Detection System (IDS) alerts
-"""
-
 import random
 import time
 from dataclasses import dataclass, field
